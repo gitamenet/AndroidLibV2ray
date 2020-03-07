@@ -5,7 +5,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/xiaokangwang/AndroidLibV2ray/CoreI"
+	"github.com/gitamenet/AndroidLibV2ray/CoreI"
 )
 
 type FirstRun struct {

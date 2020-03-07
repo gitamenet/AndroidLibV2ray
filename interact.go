@@ -11,21 +11,21 @@ import (
 	"sync/atomic"
 	"time"
 
-	"v2ray.com/core"
-	"v2ray.com/ext/sysio"
+	core "github.com/gitamenet/v2ray-core"
+	"github.com/v2ray/ext/sysio"
 
-	"github.com/golang/protobuf/proto"
-	"github.com/xiaokangwang/AndroidLibV2ray/CoreI"
-	"github.com/xiaokangwang/AndroidLibV2ray/Process"
-	"github.com/xiaokangwang/AndroidLibV2ray/Process/Escort"
-	"github.com/xiaokangwang/AndroidLibV2ray/Process/UpDownScript"
-	"github.com/xiaokangwang/AndroidLibV2ray/VPN"
-	"github.com/xiaokangwang/AndroidLibV2ray/configure"
-	"github.com/xiaokangwang/AndroidLibV2ray/configure/jsonConvert"
-	"github.com/xiaokangwang/AndroidLibV2ray/shippedBinarys"
-	vlencoding "github.com/xiaokangwang/V2RayConfigureFileUtil/encoding"
+	"github.com/gitamenet/AndroidLibV2ray/CoreI"
+	"github.com/gitamenet/AndroidLibV2ray/Process"
+	"github.com/gitamenet/AndroidLibV2ray/Process/Escort"
+	"github.com/gitamenet/AndroidLibV2ray/Process/UpDownScript"
+	"github.com/gitamenet/AndroidLibV2ray/VPN"
+	"github.com/gitamenet/AndroidLibV2ray/configure"
+	"github.com/gitamenet/AndroidLibV2ray/configure/jsonConvert"
+	"github.com/gitamenet/AndroidLibV2ray/shippedBinarys"
+	"github.com/golang/protobuf/proto""
+	"github.com/golang/protobuf/proto
 	mobasset "golang.org/x/mobile/asset"
-	v2rayconf "v2ray.com/ext/tools/conf/serial"
+	v2rayconf "github.com/v2ray/ext/tools/conf/serial"
 )
 
 /*V2RayPoint V2Ray Point Server

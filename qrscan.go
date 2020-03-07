@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	vlencoding "github.com/xiaokangwang/V2RayConfigureFileUtil/encoding"
-	"github.com/xiaokangwang/libV2RayAuxiliaryURL"
+	vlencoding "github.com/gitamenet/V2RayConfigureFileUtil/encoding"
+	"github.com/gitamenet/libV2RayAuxiliaryURL"
 )
 
 var CurrentScan *QRScanContext

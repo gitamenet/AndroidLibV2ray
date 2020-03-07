@@ -5,16 +5,16 @@ import (
 	"os"
 	"syscall"
 
-	"github.com/xiaokangwang/AndroidLibV2ray/CoreI"
-	"github.com/xiaokangwang/AndroidLibV2ray/Process/Escort"
-	"github.com/xiaokangwang/AndroidLibV2ray/configure"
-	"github.com/xiaokangwang/waVingOcean"
-	voconfigure "github.com/xiaokangwang/waVingOcean/configure"
+	"github.com/gitamenet/AndroidLibV2ray/CoreI"
+	"github.com/gitamenet/AndroidLibV2ray/Process/Escort"
+	"github.com/gitamenet/AndroidLibV2ray/configure"
+	wavingocean "github.com/gitamenet/waVingOcean"
+	voconfigure "github.com/gitamenet/waVingOcean/configure"
 
 	"golang.org/x/sys/unix"
 
-	"v2ray.com/core"
-	"v2ray.com/core/transport/internet"
+	core "github.com/gitamenet/v2ray-core"
+	"github.com/gitamenet/v2ray-core/transport/internet"
 )
 
 /*VpnSupportReady VpnSupportReady*/

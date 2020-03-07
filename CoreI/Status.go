@@ -1,8 +1,6 @@
 package CoreI
 
-import (
-	"v2ray.com/core"
-)
+import core "github.com/gitamenet/v2ray-core"
 
 type Status struct {
 	IsRunning       bool

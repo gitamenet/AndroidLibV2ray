@@ -5,10 +5,11 @@ import (
 	"os/exec"
 
 	"log"
+
+	"github.com/gitamenet/AndroidLibV2ray/CoreI"
+	"github.com/gitamenet/AndroidLibV2ray/Process"
+	"github.com/gitamenet/AndroidLibV2ray/configure"
 )
-import "github.com/xiaokangwang/AndroidLibV2ray/configure"
-import "github.com/xiaokangwang/AndroidLibV2ray/CoreI"
-import "github.com/xiaokangwang/AndroidLibV2ray/Process"
 
 func (v *Escorting) EscortRun(proc string, pt []string, forgiveable bool, tapfd int) {
 	count := 42
