@@ -11,8 +11,8 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/gitamenet/ext/sysio"
 	core "github.com/gitamenet/v2ray-core"
-	"github.com/v2ray/ext/sysio"
 
 	"github.com/gitamenet/AndroidLibV2ray/CoreI"
 	"github.com/gitamenet/AndroidLibV2ray/Process"
@@ -23,8 +23,8 @@ import (
 	"github.com/gitamenet/AndroidLibV2ray/configure/jsonConvert"
 	"github.com/gitamenet/AndroidLibV2ray/shippedBinarys"
 	vlencoding "github.com/gitamenet/V2RayConfigureFileUtil/encoding"
+	v2rayconf "github.com/gitamenet/ext/tools/conf/serial"
 	"github.com/golang/protobuf/proto"
-	v2rayconf "github.com/v2ray/ext/tools/conf/serial"
 	mobasset "golang.org/x/mobile/asset"
 )
 

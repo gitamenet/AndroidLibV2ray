@@ -12,7 +12,7 @@ import (
 
 	simplejson "github.com/bitly/go-simplejson"
 	"github.com/gitamenet/AndroidLibV2ray/configure"
-	v2rayJsonWithComment "github.com/v2ray/ext/encoding/json"
+	v2rayJsonWithComment "github.com/gitamenet/ext/encoding/json"
 )
 
 type libv2rayconf struct {
