@@ -22,10 +22,10 @@ import (
 	"github.com/gitamenet/AndroidLibV2ray/configure"
 	"github.com/gitamenet/AndroidLibV2ray/configure/jsonConvert"
 	"github.com/gitamenet/AndroidLibV2ray/shippedBinarys"
-	"github.com/golang/protobuf/proto""
-	"github.com/golang/protobuf/proto
-	mobasset "golang.org/x/mobile/asset"
+	vlencoding "github.com/gitamenet/V2RayConfigureFileUtil/encoding"
+	"github.com/golang/protobuf/proto"
 	v2rayconf "github.com/v2ray/ext/tools/conf/serial"
+	mobasset "golang.org/x/mobile/asset"
 )
 
 /*V2RayPoint V2Ray Point Server
